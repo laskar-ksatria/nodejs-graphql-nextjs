@@ -1,0 +1,11 @@
+GET http://localhost:3020/users
+
+###CREATE
+POST http://localhost:3020/users
+Content-Type: application/json
+
+{
+    "full_name": "Laskar Ksatria Satika",
+    "email": "laskarks@mail.com",
+    "password": "1234"
+}
